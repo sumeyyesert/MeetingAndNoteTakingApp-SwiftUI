@@ -6,14 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E80452F42CC68F8E004CDCCA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E80452F32CC68F8E004CDCCA /* FirebaseAuth */; };
+		E86DA3202CBD49AA00569625 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E86DA31F2CBD49AA00569625 /* FirebaseAnalytics */; };
+		E86DA3222CBD49AA00569625 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E86DA3212CBD49AA00569625 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		E86DA30B2CBD47A900569625 /* minusdotminuss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minusdotminuss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86DA30B2CBD47A900569625 /* MeetingAndNoteTakingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingAndNoteTakingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E86DA30D2CBD47A900569625 /* minusdotminuss */ = {
+		E86DA30D2CBD47A900569625 /* MeetingAndNoteTakingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = minusdotminuss;
+			path = MeetingAndNoteTakingApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,16 +29,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86DA3202CBD49AA00569625 /* FirebaseAnalytics in Frameworks */,
+				E80452F42CC68F8E004CDCCA /* FirebaseAuth in Frameworks */,
+				E86DA3222CBD49AA00569625 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E80452F22CC68F8E004CDCCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E86DA3022CBD47A900569625 = {
 			isa = PBXGroup;
 			children = (
-				E86DA30D2CBD47A900569625 /* minusdotminuss */,
+				E86DA30D2CBD47A900569625 /* MeetingAndNoteTakingApp */,
+				E80452F22CC68F8E004CDCCA /* Frameworks */,
 				E86DA30C2CBD47A900569625 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +57,7 @@
 		E86DA30C2CBD47A900569625 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E86DA30B2CBD47A900569625 /* minusdotminuss.app */,
+				E86DA30B2CBD47A900569625 /* MeetingAndNoteTakingApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E86DA30A2CBD47A900569625 /* minusdotminuss */ = {
+		E86DA30A2CBD47A900569625 /* MeetingAndNoteTakingApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E86DA3192CBD47AA00569625 /* Build configuration list for PBXNativeTarget "minusdotminuss" */;
+			buildConfigurationList = E86DA3192CBD47AA00569625 /* Build configuration list for PBXNativeTarget "MeetingAndNoteTakingApp" */;
 			buildPhases = (
 				E86DA3072CBD47A900569625 /* Sources */,
 				E86DA3082CBD47A900569625 /* Frameworks */,
@@ -61,13 +78,16 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E86DA30D2CBD47A900569625 /* minusdotminuss */,
+				E86DA30D2CBD47A900569625 /* MeetingAndNoteTakingApp */,
 			);
-			name = minusdotminuss;
+			name = MeetingAndNoteTakingApp;
 			packageProductDependencies = (
+				E86DA31F2CBD49AA00569625 /* FirebaseAnalytics */,
+				E86DA3212CBD49AA00569625 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				E80452F32CC68F8E004CDCCA /* FirebaseAuth */,
 			);
 			productName = minusdotminuss;
-			productReference = E86DA30B2CBD47A900569625 /* minusdotminuss.app */;
+			productReference = E86DA30B2CBD47A900569625 /* MeetingAndNoteTakingApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E86DA3062CBD47A900569625 /* Build configuration list for PBXProject "minusdotminuss" */;
+			buildConfigurationList = E86DA3062CBD47A900569625 /* Build configuration list for PBXProject "MeetingAndNoteTakingApp" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,12 +114,15 @@
 			);
 			mainGroup = E86DA3022CBD47A900569625;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E86DA31E2CBD49AA00569625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E86DA30C2CBD47A900569625 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E86DA30A2CBD47A900569625 /* minusdotminuss */,
+				E86DA30A2CBD47A900569625 /* MeetingAndNoteTakingApp */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +274,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"minusdotminuss/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeetingAndNoteTakingApp/Preview Content\"";
 				DEVELOPMENT_TEAM = JMTTVAWVQ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -265,7 +288,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumeyyesert.minusdotminuss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumeyyesert.MeetingAndNoteTakingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -280,7 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"minusdotminuss/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MeetingAndNoteTakingApp/Preview Content\"";
 				DEVELOPMENT_TEAM = JMTTVAWVQ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -294,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sumeyyesert.minusdotminuss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumeyyesert.MeetingAndNoteTakingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -305,7 +328,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E86DA3062CBD47A900569625 /* Build configuration list for PBXProject "minusdotminuss" */ = {
+		E86DA3062CBD47A900569625 /* Build configuration list for PBXProject "MeetingAndNoteTakingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E86DA3172CBD47AA00569625 /* Debug */,
@@ -314,7 +337,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E86DA3192CBD47AA00569625 /* Build configuration list for PBXNativeTarget "minusdotminuss" */ = {
+		E86DA3192CBD47AA00569625 /* Build configuration list for PBXNativeTarget "MeetingAndNoteTakingApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E86DA31A2CBD47AA00569625 /* Debug */,
@@ -324,6 +347,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E86DA31E2CBD49AA00569625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E80452F32CC68F8E004CDCCA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86DA31E2CBD49AA00569625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E86DA31F2CBD49AA00569625 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86DA31E2CBD49AA00569625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E86DA3212CBD49AA00569625 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E86DA31E2CBD49AA00569625 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E86DA3032CBD47A900569625 /* Project object */;
 }
