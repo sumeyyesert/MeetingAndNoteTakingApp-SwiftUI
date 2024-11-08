@@ -9,7 +9,19 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        Text("profill")
+        NavigationStack
+        {
+            VStack
+            {
+                Image("minus")
+                    .resizable()
+                    .clipShape(Circle())
+                    .padding()
+                
+                Text("Sümeyye Sert")
+                
+            }
+        }
     }
 }
 

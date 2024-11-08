@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CalenderView: View {
     var body: some View {
-        Text("calender View")
+        Text("Calender")
     }
 }
 

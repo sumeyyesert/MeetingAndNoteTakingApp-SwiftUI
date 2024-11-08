@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProjectManagementView: View {
     var body: some View {
-        Text("peoje yönetimi abla slayy")
+        Text("Proje Yönetimi")
     }
 }
 

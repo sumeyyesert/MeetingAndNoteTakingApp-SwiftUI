@@ -94,7 +94,7 @@ struct signUp: View {
             }
                 
         }
-    } //body bitiş
+    }
     
     func errorMessages() {
 
