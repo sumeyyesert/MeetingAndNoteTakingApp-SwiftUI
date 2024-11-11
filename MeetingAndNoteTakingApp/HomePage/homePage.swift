@@ -35,17 +35,16 @@ struct homePage: View {
                     NavigationLink(destination: AppConnectionsView()) {
                         CustomText(placeholder: "Uygula Bağlama")
                     }
-                } // vstack bitiş
-                
+                }
                 NavigationLink(destination: ProfileView()) {
                     CustomText(placeholder: "Profil")
                 }
 
-            } // hstack bitiş
+            } 
             
-        } // navigationstack bitiş
+        }
         
-    } // body bitiş
+    }
     
     struct CustomText: View {
         var placeholder: String = ""
